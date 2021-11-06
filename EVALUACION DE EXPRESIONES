@@ -1,0 +1,19 @@
+/*EJERCICIOS 3 DE NOVIEMBRE DEL 2021
+ISRAEL FRANCISCO ANGELES MONTIJO
+PROGRAMACION EN C*/
+#include <stdio.h>/*BIBLIOTECA PRINTF*/
+#define DATO 4/*DEFINE CONSTANTE DATO=4*/
+main()        /*INICIO PROGRAMA*/
+{
+int x, y=1;	/*DECLARACION DE VARIABLE X,Y (ENTERAS)*/
+float z;    /*DECLARACION DE VARIABLE Z COMO (REAL)*/
+x=3/2+10-3;
+z=3.0/2.0+10-3;
+printf("X=(3/2+10-3): %d--Z(3.0/2.0+10-3):%f\n",x,z);/*IMPRESION DE VARIABLES X Y Z d=INT z=FLOAT*/
+printf("(DATO*3+1/2)=%d\n",DATO*3+1/2);/*IMPRESION DE OPERACION d=INT*/
+printf("(5+2-1>5)=%d\n",5+2-1>5);
+printf("(3>1||DATO*2<1=)%d\n",3>1||DATO*2<1);
+printf("(5!=1 && DATO>2=)%d\n",5!=1 && DATO>2);
+y=x;
+printf("(x+y<=z)=%d\n",x+y<=z);
+}
